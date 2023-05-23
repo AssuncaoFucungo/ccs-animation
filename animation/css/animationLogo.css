@@ -1,0 +1,22 @@
+@keyframes animatedCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  margin: 5%;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+img:hover {
+  animation-name: animatedCircle;
+}
